@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
+        // 230915 : Introduction Screen/Onboarding Screen UI
         "/": (context) => OnBoarding(),
         "home": (context) => HomeScreen(),
       },
