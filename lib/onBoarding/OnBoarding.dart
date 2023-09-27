@@ -12,7 +12,7 @@ class OnBoarding extends StatelessWidget {
         scrollPhysics: BouncingScrollPhysics(),
         pages: [
           PageViewModel(
-            titleWidget: Text(
+            titleWidget: const Text(
               "Write Title of Page",
               style: TextStyle(
                 fontSize: 30,
@@ -22,13 +22,13 @@ class OnBoarding extends StatelessWidget {
             body:
                 "Write the more description of the page. Write the more description of the page. Write the more description of the page. Write the more description of the page.",
             image: Image.asset(
-              "assets/images/onBoarding/1.png",
+              "assets/onboarding_1.png",
               height: 400,
               width: 400,
             ),
           ),
           PageViewModel(
-            titleWidget: Text(
+            titleWidget: const Text(
               "Write Title of Page",
               style: TextStyle(
                 fontSize: 30,
@@ -38,13 +38,13 @@ class OnBoarding extends StatelessWidget {
             body:
                 "Write the more description of the page. Write the more description of the page. Write the more description of the page. Write the more description of the page.",
             image: Image.asset(
-              "assets/images/onBoarding/2.png",
+              "assets/onboarding_2.png",
               height: 400,
               width: 400,
             ),
           ),
           PageViewModel(
-            titleWidget: Text(
+            titleWidget: const Text(
               "Write Title of Page",
               style: TextStyle(
                 fontSize: 30,
@@ -54,7 +54,7 @@ class OnBoarding extends StatelessWidget {
             body:
                 "Write the more description of the page. Write the more description of the page. Write the more description of the page. Write the more description of the page.",
             image: Image.asset(
-              "assets/images/onBoarding/3.png",
+              "assets/onboarding_3.png",
               height: 400,
               width: 400,
             ),
@@ -67,7 +67,7 @@ class OnBoarding extends StatelessWidget {
           Navigator.pushNamed(context, "home");
         },
         showSkipButton: true,
-        skip: Text(
+        skip: const Text(
           "Skip",
           style: TextStyle(
             fontWeight: FontWeight.bold,
